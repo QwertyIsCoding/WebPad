@@ -1,0 +1,66 @@
+<html lang="en">
+<!--This is the title of the website-->
+<head>
+    <title>WebPad</title>
+</head>
+
+<!--This is the body of the website-->
+<body>
+    <!--Importing the fonts fromm Google Fonts-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>
+    <!--CSS styling of the website done with the <style> tags. You can import this using the import tag as well-->
+    <style>
+        body {
+            background-color: #000000;
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .heading {
+            margin-bottom: 20px;
+            font-size: 3rem;
+            color: rgb(255, 255, 255);
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .der_text {
+            text-transform: uppercase;
+            font-size: 0.6rem;
+            font-weight: 600;
+        }
+
+
+        .input_area {
+            background-color: #f5f5c6;
+            height: 80px;
+            width: 40%;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin: 15px;
+            padding: 20px;
+            border: 0px;
+            box-shadow: rgb(255, 255, 255) 5px 8px 5px;
+        }
+    </style>
+    <!--End of website styling-->
+    <div class="container">
+        <!--This is the header of the website-->
+        <div class="heading">
+            WebPad
+        </div>
+<!--This is the "input area" of the website where -->
+        <textarea class="input_area" placeholder="You can type here..."">
+	</textarea>
+    </div>
+
+</body>
+
+</html>
