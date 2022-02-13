@@ -1,5 +1,5 @@
 # WebPad
-A very basic web based notepad! Has annotations in the code so that even a beginner can see, understand and use it!
+A very basic web-based notepad! Has annotations in the code so that even a beginner can see, understand and use it!
 
 ----
 
